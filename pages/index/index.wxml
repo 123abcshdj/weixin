@@ -1,0 +1,16 @@
+<view>
+
+<view class="dingbu"> 举报信息 </view>
+
+  <view class="date">
+  年 月 日
+  
+  </view>
+  <view class="a">
+  微信号为   的用户对此人进行了举报
+  </view>
+  <view class="b">举报的具体内容：</view>
+<label class="what"></label>
+<view class="bufa">不法获取金额：</view>
+
+</view>

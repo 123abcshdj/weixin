@@ -1,0 +1,39 @@
+.topic{
+display:flex;flex-direction:column;justify-content:space-around;align-items: center}
+
+.container{height:100vh;
+display:flex;
+flex-direction:column;justify-content:space-around
+;
+
+}
+.image{
+  width:375rpx;
+  height:375rpx;
+  border-radius:50%;
+}
+.addbutton{
+
+  background-image: url('/image/add.jpg');
+
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+
+}
+.div{white-space:nowrap;}
+.box {
+    position: relative;
+    display: inline - block;
+  }
+    .box.clear {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #999;
+  }
+
+
+

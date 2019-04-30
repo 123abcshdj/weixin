@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "举报",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "openid": "$openid",
+  "json_string": "$resultJSON",
+  "json_signature": "$resultJSONSignature"
+}
