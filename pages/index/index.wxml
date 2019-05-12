@@ -1,0 +1,16 @@
+
+<view>
+<view class="dingbu"> 举报信息 </view>
+
+  <view class="date">
+  {{result.year}}年{{result.month}} 月 {{result.day}}日
+  <view> </view>
+  </view>
+<view class="a">
+  微信号为 {{result.weixinid}} 的用户对此人进行了举报
+  </view>
+  <view class="b">举报的具体内容：{{result.neirong}}</view>
+<label class="what"></label>
+<view class="bufa">不法获取金额：{{result.zhapian}}</view>
+</view>
+
