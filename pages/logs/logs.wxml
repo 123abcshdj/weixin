@@ -1,0 +1,31 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
+
+<!---微信用户头像--->
+<view class='imagesize'>
+<image src="/images/1.png" class='in-image'>
+</image>
+</view>
+
+<text class='cls1'>
+
+信用度：
+
+</text>
+
+<text class='cls2'>
+
+被举报次数：
+
+</text>
+
+{{request.name}}
+
+
+
+<view atyle='height:10px;'></view>
+<button type="default" bindtap='backBtn'>后退</button>

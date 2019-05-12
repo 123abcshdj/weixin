@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+
+
+<view>{{request.name}}</view>
+<!---微信名--->
+<view class="section">
+<view class='left'></view>
+<view class='middle'>
+
+ 
+<!-- 搜索框view -->
+<view class="search_con">
+<!-- 表单 -->
+  <form bindsubmit="formSubmit">
+  <!-- 记得设置name值，这样JS才能接收name=keyword的值 -->
+    <input type="text" name="keyword" class="search_input" placeholder='输入微信号/微信名'/>
+    <button formType="submit" class="search_btn">搜索</button>    
+  </form>
+</view>
+
+<!-- 搜索结果展示 -->
+<view wx:for="{{re}}" wx:key="re" class="search_result">
+<!-- 当提交空白表单的时候 -->
+  <view class="empty">{{item.empty}}</view>
+  <!-- 当有搜索结果的时候 -->
+  <view class="resname">{{item.resname}}</view>
+  <!-- 当查询不到结果的时候 -->
+  <view class="noresult">{{item.noresult}}</view>
+</view>
+
+</view>
+<view class='right'></view>
+</view>
+
+<!---图片--->
+<view class='imagesize'>
+<image src="/images/3.png" class='in-image'>
+</image>
+</view>
+
+<!---内容--->
+<view class="container">
+<text class='cls1'>
+
+
+
+
+安全小贴士：
+
+</text>
+
+<text class='cls2'>1.保护社交账号，设置一个安全的密码</text>
+<text class='cls3-a'>2.陌生网址不打开，陌生文件不下载</text>
+<text class='cls3-b'>3.网络交友需谨慎，不要轻信陌生人身份</text>
+<text class='cls3-c'>4.安全软件要安装，风险提示要遵守</text>
+
+<view class='container'>
+<view class="mto-container" bindtap='go'>
+<text class='moto'> → </text>
+
+
+</view>
+</view>
+
+
+
+</view>
+</view>
+</view>

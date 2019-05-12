@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#8A2BE2",
+    "navigationBarTitleText": "用户查找",
+    "navigationBarTextStyle":"white"
+  }
+}
